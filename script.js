@@ -5,7 +5,7 @@ const linkedin = document.querySelector(".linkedin");
 const whatsapp = document.querySelector(".whatsapp");
 
 function shear() {
-  const pinterestImg = document.querySelector(".pinterest-img");
+  const pinterestImg = document.querySelectorAll(".pinterest-img");
 
   let postURL = encodeURI(document.location.href);
   console.log(postURL);
